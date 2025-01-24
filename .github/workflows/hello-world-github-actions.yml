@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
 jobs:
-  print-info:
+  print-info-job:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World GitHub Actions"
