@@ -7,16 +7,21 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Print from job1"
+      - run: echo "start job1"
+      - run: sleep 3
+      - run: echo "complete job1"
   job2:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Print from job2"
+      - run: echo "start job2"
+      - run: echo "complete job2"
   job3:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Print from job3"
+      - run: echo "start job3"
+      - run: echo "complete job3"
   job4:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Print from job1"
+      - run: echo "start job4"
+      - run: echo "complete job4"
