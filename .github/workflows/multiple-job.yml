@@ -1,0 +1,23 @@
+name: Hello World GitHub Actions
+run-name: ${{ github.actor }} ran the workflow
+on: 
+  push:
+    branches:
+      - 'main'
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Print from job1"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Print from job2"
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Print from job3"
+  job4:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Print from job1"
