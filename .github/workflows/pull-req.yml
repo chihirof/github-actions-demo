@@ -1,7 +1,7 @@
 name: PullRequest Open
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [ready_for_review]
 jobs:
   labeled:
     runs-on: ubuntu-latest
