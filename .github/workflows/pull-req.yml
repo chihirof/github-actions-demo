@@ -1,0 +1,9 @@
+name: PullRequest Open
+on:
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  labeled:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "PullRequest Open！"
